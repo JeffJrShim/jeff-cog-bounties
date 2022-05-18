@@ -24,7 +24,7 @@ class CustomInfo(commands.Cog):
         if not hasattr(commands.Context, "sendi"):
             commands.Context.sendi = send_with_components
         self.config = Config.get_conf(self, identifier=835238)
-        default_config = {"thumbnail": None, "description": None, "button_url1"="", "button_url2"="", "button_url3"="", "button_url4"=""}
+        default_config = {"thumbnail": None, "description": None, "button_url1": "", "button_url2": "", "button_url3": "", "button_url4": ""}
         self.config.register_global(**default_config)
     
 
