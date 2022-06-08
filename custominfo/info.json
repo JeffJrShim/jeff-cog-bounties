@@ -1,7 +1,7 @@
 {
     "author": ["JeffJrShim"], 
     "name": "CustomInfo",
-    "install_msg": "Thanks for installing CustomInfo. Load the cog, and run `[p]help CustomInfo` for the commands. If you're the bounty creator, should you require any support, please join the support server: https://discord.gg/RSAetqdhRU. Else, you are not entitled to any support, if I don't want to give any.",
+    "install_msg": "Load the cog to have the custom info comamand. Unload the cog, and restart the bot when you decide to remove the info command.",
     "description": "Allows you to setup a custom info command.",
     "short": "Allows you to setup a custom info command.",
     "end_user_data_statement": "This cog does not persistently store any data about users",
